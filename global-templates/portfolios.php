@@ -1,4 +1,4 @@
-<?php
+<<?php
 /**
  * Portfolio Items setup.
  *
@@ -9,16 +9,17 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 // Get the three latest Portfolio Items
 $portfolio_items = new WP_Query([
-	'post_type' => 'bs_usp',
+	'post_type' => 'us_portfolio',
 	'posts_per_page' => -1,
 ]);
 // Did we get any Portfolio Items?
 if ($portfolio_items->have_posts()) {
 	// GREAT SUCCESS!
 	?>
-		<div class="wrapper" id="wrapper-portfolio">
+		<div class="wrapper" id="wrapper-portfolio-item">
 			<div class="container">
-<h6><?php _e('Portfolio', 'understrap'); ?></h6>
+
+				<h1><?php _e('Portfolio', 'understrap'); ?></h1>
 
 				<div class="row">
 					<!-- Loop over the Portfolio Items -->
@@ -27,7 +28,7 @@ if ($portfolio_items->have_posts()) {
 							$portfolio_items->the_post();
 							?>
 								<!-- For each Portfolio Item, include a template part? -->
-								<?php get_template_part('loop-templates/content','usp'); ?>
+								<?php get_template_part('loop-templates/content-portfolio'); ?>
 							<?php
 						}
 						// DON'T FORGET TO RESET POSTDATA!
@@ -38,3 +39,4 @@ if ($portfolio_items->have_posts()) {
 		</div>
 	<?php
 }
+?>

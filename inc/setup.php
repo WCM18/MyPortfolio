@@ -135,3 +135,4 @@ if ( ! function_exists( 'understrap_all_excerpts_get_more_link' ) ) {
 		return $post_excerpt;
 	}
 }
+add_image_size('portfolio-thumbnail',510,287,true);

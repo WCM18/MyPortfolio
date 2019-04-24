@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 $usps= new wp_query([
 'post_type'=>'bs_usp',
-'post_per_page'=>'3',
+'post_per_page'=>'6',
 
 ]);
 

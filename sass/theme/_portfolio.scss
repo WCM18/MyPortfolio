@@ -3,7 +3,7 @@
 // Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
 
 
-//$primary: #5533ff; // Thats a sample how you could change a BootStrap variable.
+/* //$primary: #5533ff; // Thats a sample how you could change a BootStrap variable.
 #wrapper-portfolio{
     background-color:#444;
     color:#fff;
@@ -11,3 +11,51 @@
     padding-bottom: 4rem;
    
     }
+    /* #wrapper-portfolios {
+        background-color: $dark;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    
+        .wrapper-portfolio {
+            display: flex;
+    
+            .portfolio {
+                background-color: rgb(170, 170, 170);
+                border-radius: 15px;
+                padding: 1rem 1.5rem;
+                color: $body-color;
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+     */
+     //$primary: #5533ff; // Thats a sample how you could change a BootStrap variable.
+#wrapper-portfolio-item{
+    //background: url(https://picsum.photos/1920/500/?random);
+    background-color: $dark;
+    color:white;
+    
+    wrapper-portfolio {
+        display: flex;
+    }
+    .portfolio {
+        background-color: $light;
+        padding: 1rem 1.5rem;
+       
+        
+        .img{
+            margin-bottom: 0.5rem;
+        }
+        h1{
+
+            font-size: 1.5rem;
+        }
+        
+    }
+}
+    
+    
+    
+    

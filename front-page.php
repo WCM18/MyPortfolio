@@ -9,8 +9,7 @@
  * different template.
  *
  *
-<?php
-/**
+
  * The template for displaying the front page.
  *
  * @package understrap
@@ -26,7 +25,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'global-templates/usps' ); ?>
 
-<?php get_template_part( 'global-templates/portfolio' ); ?>
+<?php get_template_part( 'global-templates/portfolios' ); ?>
 
 <div class="wrapper" id="page-wrapper">
 
