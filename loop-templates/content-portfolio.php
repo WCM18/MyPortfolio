@@ -7,9 +7,10 @@
 ?php
 } */
 ?> <?php if(has_post_thumbnail());?>
-
+     <a href="<?php the_permalink();?>">
 		<?php the_post_thumbnail('portfolio-thumbnail',['class'=>'img-fluid']);
 		?>
+		</a>
 
 
 		<h1><?php the_title();?></h1>

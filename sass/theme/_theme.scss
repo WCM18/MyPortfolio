@@ -1,3 +1,13 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
 @import "portfolio";
 @import "usps";
+
+#wrapper-hero {
+          .jumbotron{
+              background: linear-gradient(
+                  rgb(192, 167, 167),
+                  rgb(228, 95, 95),
+                  url(https://picsum.photos/1920/500/?random)center center no-repeat;
+                  background-size: cover;
+          }
+}
