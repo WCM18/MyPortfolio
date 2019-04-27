@@ -32,7 +32,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 		
 
 	</div><!-- .entry-content -->
- here be the footer
+
 	<footer class="entry-footer">
   here is footer
 		<?php  ?>

@@ -32,34 +32,13 @@
     }
      */
      //$primary: #5533ff; // Thats a sample how you could change a BootStrap variable.
-#wrapper-portfolio-item{
-    //background: url(https://picsum.photos/1920/500/?random);
-    background-color: $dark;
-    //color:white;
-    
-    wrapper-portfolio {
-        display: flex;
-    }
-    .portfolio {
-        background-color: $light;
-        color:$body-color;display:flex;
-        flex-direction:column;
-        padding: 1rem 1.5rem;
-       
-        
-        .img{
-            margin-bottom: 0.5rem;
-        }
-        h1{
+        .h1{
 
             font-size: 1.5rem;
-        }
-        main{
-            flex-grow:1;
+            
         }
         
-    }
-}
+    
     
     
     

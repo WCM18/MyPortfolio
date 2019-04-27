@@ -1,0 +1,53 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+//$primary: #5533ff; // Thats a sample how you could change a BootStrap variable.
+#front-page-contact {
+      background-color: $dark;
+    color:$white;
+    text-align: center;
+
+     #contact-form-wrapper{
+        @include media-breakpoint-up(md) {
+
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 75%;
+
+                    }            
+              
+          }
+        }
+
+          
+           
+                  @include media-breakpoint-up(md) {
+                    #front-page-contact {
+                     
+                        #contact-form-wrapper{
+          
+                                margin-left: auto;
+                                margin-right: auto;
+                                max-width: 67%;
+          
+                            }   
+                        
+                    
+    @include media-breakpoint-up(lg) {         
+                                        max-width: 75%;
+    
+                                     }   
+                                                
+                           .wpcf7-form{
+                               input[type=submit]{
+                                   @extend .btn-lg;
+                                   @extend .btn-warning;
+
+                               }
+                           }
+                    }
+                }
+                      
+

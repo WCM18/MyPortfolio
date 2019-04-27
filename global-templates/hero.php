@@ -19,13 +19,13 @@ if ( ! defined( 'ABSPATH' ) ) {
 	<div class="row ml-5">
 		<img src="wp-content/uploads/2019/04/me1.jpg" style="border-radius:10px;">
 		<div class="column ml-5">
-			<h1>
+			<h2>
 			Anju Shahi
-		</h1>
+		</h2>
 			
 		<p class="lead">
 			<h6>A QA engineer and  webdeveloper</h6> 
-			<b>"Be conservative in what you send,be liberal in what you accept"</b>
+			<h6>"Be conservative in what you send,be liberal in what you accept"</h6>
 		</p>
 		</div>
 	</div>
